@@ -1,0 +1,16 @@
+.wrapper-contain{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    display: -ms-flexbox;
+    box-orient:horizontal;
+    background: #fff;
+}
+.wrapper-contain .main-left{
+    flex:1;
+    border-right: 1px solid #e9e9e9;
+    height: 300px;
+}
+.wrapper-contain .root{
+    flex:6;
+}
